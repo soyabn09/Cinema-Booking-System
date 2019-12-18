@@ -22,6 +22,11 @@ namespace BookingSeats
             {
                 int input1 = int.Parse(Console.ReadLine());
 
+                if (input1 <= 0)
+                {
+                    Standard(Title, Length, AR, DT, Screen);
+                }
+
                 BookingFile.Seats(Convert.ToInt16(Screen), input1, 0);
 
                 double price = input1 * 9.99;
@@ -50,6 +55,11 @@ namespace BookingSeats
             try
             {
                 int input2 = int.Parse(Console.ReadLine());
+
+                if (input2 <= 0)
+                {
+                    VIP(Title, Length, AR, DT, Screen);
+                }
 
                 BookingFile.Seats(Convert.ToInt16(Screen), input2, 0);
 

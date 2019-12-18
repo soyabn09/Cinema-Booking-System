@@ -75,7 +75,7 @@ namespace BookingFilms
         {
             Console.Clear();
             Console.Write("\nPlease choose one of the following choice of seats: ");
-            Console.Write("\n[1] Standard Seats - £9.99 \n[2] VIP Seats - £15.00 \n\n");
+            Console.Write("\n\n[1] Standard Seats - £9.99 \n[2] VIP Seats - £15.00 \n\n");
 
             try
             {
