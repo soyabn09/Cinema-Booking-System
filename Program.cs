@@ -74,9 +74,9 @@ namespace BookingMain
             Console.Write("\n==================================================\n");
             Console.Write("Films: \n\nStart by choosing a film by inputting a number that represents the film then pressing the enter key to confirm your choice. \n\n");
             Console.Write("==================================================\n");
-            Console.Write("Type of Seats: \n\nThe different types of seats available are Standard or VIP seats. \nOnce the film has been chosen you will be given the choice of choosing the type of seats, input the number represented next to the seat type and press enter to continue. \nchoose carefully as you will have to wait till you get to the ticket confirmation to be able to start over. \n\n");
+            Console.Write("Type of Seats: \n\nThe different types of seats available are Standard or VIP seats. \nOnce the film has been chosen you will be given the choice of choosing the type of seats, input the number represented next to the seat type and press enter to continue. \nChoose carefully as you will have to wait till you get to the ticket confirmation to be able to start over. \n\n");
             Console.Write("==================================================\n");
-            Console.Write("Ticket: \n\nThe ticket confirmation is the last stage, here will be the details of your ticket and will be given a choice to confirm the booking or go back to the menu. \nIf the menu the choice is to go back to the menu and it was done by accident, you will be given another chance to confirm your option. \n\n");
+            Console.Write("Ticket: \n\nThe ticket confirmation is the last stage, here will be the details of your ticket and will be given a choice to confirm the booking or go back to the menu. \nIf the choice is to go back to the menu and it was done by accident, you will be given another chance to confirm your option. \n\n");
             Console.Write("==================================================\n");
             Console.Write("Please choose the following option:");
             Console.Write("\n[1] BACK \n\n");
